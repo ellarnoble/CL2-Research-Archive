@@ -3,7 +3,7 @@
 This study implements a model for multilingual grapheme-to-phoneme (G2P) mapping across eight Cyrillic/Latin languages: Bulgarian, English, Indonesian, Macedonian, Russian, Spanish, Tagalog and Ukrainian. The model uses an encoder-decoder architecture and greedy decoding for autoregressive phoneme generation.  
 
 Data is taken from SIGMORPHON Shared Task (2024) which contains training, validation and test files for each language. This can be found at: 
-[SIGMORPHON (2025)](https://github.com/sigmorphon/2024G2PST)
+[SIGMORPHON (2024)](https://github.com/sigmorphon/2024G2PST)
 
 Each file contains paired orthographic and phonemic transcriptions of words; these are prepended with a script and language token ID prior to being processed by the model. 
 
