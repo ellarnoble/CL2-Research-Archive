@@ -187,7 +187,7 @@ tgt_vocab = {"<pad>": 0, "<unk>": 1, "<bos>": 2, "<eos>": 3}
 unique_languages = full_df["language"].unique()
 lang_tokens = [f"<{lang}>" for lang in unique_languages]
 
-# Assign language tokens to source tokens (with a fallback for unknown)
+# Assign language tokens to source tokens
 for i, lang_tag in enumerate(lang_tokens, start=2):
     src_vocab[lang_tag] = i
 
